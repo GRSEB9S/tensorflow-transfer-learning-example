@@ -1,0 +1,1 @@
+python ./retrain.py --architecture=inception_v3 --image_dir=./train_image --summaries_dir=output/summary --how_many_training_steps=1000 --bottleneck_dir=output/bottleneck --output_labels=output/label.txt --output_graph=output/output_graph.pb --model_dir=output/model
